@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>image-slide</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  
-  <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image-slide</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slides">
+        <img class="slide" src="pictures/picture1.jpg" alt="picture #1" />
+        <img class="slide" src="pictures/picture3.jpg" alt="picture #3" />
+        <img class="slide" src="pictures/picture4.jpg" alt="picture #4" />
+        <img class="slide" src="pictures/picture5.jpg" alt="picture #5" />
+        <img class="slide" src="pictures/picture6.jpg" alt="picture #6" />
+        <img class="slide" src="pictures/picture7.jpg" alt="picture #7" />
+        <img class="slide" src="pictures/picture8.jpg" alt="picture #8" />
+        <img class="slide" src="pictures/picture9.jpg" alt="picture #9" />
+      </div>
+      <button class="prev" onclick="prevSlide()" >&#10094</button>
+      <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
